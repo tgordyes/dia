@@ -2,7 +2,7 @@ from transformers import AutoProcessor, DiaForConditionalGeneration
 
 
 torch_device = "cuda"
-model_checkpoint = "nari-labs/Dia-1.6B-0626"
+model_checkpoint = "nari-labs/Dia-1.6B"
 
 text = [
     "[S1] Dia is an open weights text to dialogue model. [S2] You get full control over scripts and voices. [S1] Wow. Amazing. (laughs) [S2] Try it now on Git hub or Hugging Face."
